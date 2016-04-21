@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的地盘哦
+title: 我的地盘
 description: "博客，木桶，木桶原理，个人说明."
 modified: 2016-04-18
 tags: [第一篇]
