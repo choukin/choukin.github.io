@@ -11,6 +11,7 @@ image:
 ---
 
 ## Git命令
+
 ### 生成新账号的公钥和私钥
 
 1.用ssh-keygen命令生成一组新的id_rsa_new和id_rsa_new.pub。
