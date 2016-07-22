@@ -11,7 +11,7 @@ image:
 ---
 
 ## Git命令
-###生成新账号的公钥和私钥
+### 生成新账号的公钥和私钥
 1.用ssh-keygen命令生成一组新的id_rsa_new和id_rsa_new.pub。
 > ssh-keygen -t rsa -C "your new email"
 
@@ -24,15 +24,19 @@ image:
 
 2.配置~/.ssh/config文件
 > 
-# 加上以下内容
+#加上以下内容
 #default github
-Host 192.168.45.120
-  HostName 192.168.45.120
-  IdentityFile ~/.ssh/id_rsa
+> Host 192.168.45.120
 
-Host github_zhaoxin
-  HostName github.com
-  IdentityFile ~/.ssh/id_rsa_zhaoxin
+>   HostName 192.168.45.120
+  
+>   IdentityFile ~/.ssh/id_rsa
+
+> Host github_zhaoxin
+
+> HostName github.com
+
+> IdentityFile ~/.ssh/id_rsa_zhaoxin
 
 
 ### 清除git的全局的用户名和邮箱
